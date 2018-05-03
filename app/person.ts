@@ -1,5 +1,5 @@
 interface Person {
     name: string;
-    age?: string;
+    age?: number;
     formatName: () => string;
 }

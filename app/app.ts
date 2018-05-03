@@ -29,14 +29,6 @@ document.getElementById('startGame')!.addEventListener('click', startGame);
 const logMessage = (message: string) => console.log(message);
 const logError = (message: string) => console.error(message);
 
-const myResult: Result = {
-    playerName: 'Marie',
-    score: 5,
-    problemCount: 5,
-    factor: 7
-};
-
-const player: Person = {
-    name: 'Daniel',
-    formatName: () => 'Dan'
-}
+const firstPlayer: Player = new Player();
+firstPlayer.name = 'Lanier';
+console.log(firstPlayer.formatName());
