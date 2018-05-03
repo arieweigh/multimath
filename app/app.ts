@@ -20,3 +20,6 @@ function getInputValue(elementId: string): string | undefined {
 }
 
 document.getElementById('startGame')!.addEventListener('click', startGame);
+
+const logMessage = (message: string) => console.log(message);
+logMessage('Welcome to MultiMath!');
