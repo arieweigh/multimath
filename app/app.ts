@@ -1,3 +1,5 @@
+/// <reference path="player.ts" />
+
 function startGame() {
     // Starting a new game.
     const playerName: string | undefined = getInputValue('playername');
